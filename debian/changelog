@@ -1,4 +1,4 @@
-xbmc-third-parties (0.2.1-neuros6) intrepid; urgency=low
+xbmc-third-parties (0.2.1-neuros6) hydrogen; urgency=low
 
   * Take over for Debian LINK
   * Move to /opt
