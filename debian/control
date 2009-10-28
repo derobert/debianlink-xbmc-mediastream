@@ -1,7 +1,7 @@
 Source: xbmc-third-parties
-Section: misc
+Section: graphics
 Priority: extra
-Maintainer: Ouattara Oumar Aziz (alias wattazoum) <wattazoum@gmail.com>
+Maintainer: Anthony DeRobertis <anthony@derobert.net>
 Build-Depends: debhelper (>= 5), unzip, tar
 Standards-Version: 3.7.2
 

@@ -1,3 +1,10 @@
+xbmc-third-parties (0.2.1-neuros6) intrepid; urgency=low
+
+  * Take over for Debian LINK
+  * Move to /opt
+
+ -- Anthony DeRobertis <anthony@derobert.net>  Tue, 27 Oct 2009 22:55:08 -0400
+
 xbmc-third-parties (0.2.1-neuros5) intrepid; urgency=low
 
   * Update the web video menu item to be non-blocking

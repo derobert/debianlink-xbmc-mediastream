@@ -60,14 +60,14 @@ install-indep:
 	# Add here commands to install the indep part of the package into
 	# debian/<package>-doc.
 	#INSTALLDOC#
-	mkdir -p debian/tmp/usr/share/xbmc/scripts
-	mkdir -p debian/tmp/usr/share/xbmc/skin
-	mkdir -p debian/tmp/usr/share/xbmc/plugins
-	mkdir -p debian/tmp/usr/share/xbmc/system
+	mkdir -p debian/tmp/opt/xbmc/share/xbmc/scripts
+	mkdir -p debian/tmp/opt/xbmc/share/xbmc/skin
+	mkdir -p debian/tmp/opt/xbmc/share/xbmc/plugins
+	mkdir -p debian/tmp/opt/xbmc/share/xbmc/system
 
-	cp -Rav MediaStream debian/tmp/usr/share/xbmc/skin/
-	cp favourites.xml debian/tmp/usr/share/xbmc/system
-	cp -Rav programs debian/tmp/usr/share/xbmc/plugins/
+	cp -Rav MediaStream debian/tmp/opt/xbmc/share/xbmc/skin/
+	cp favourites.xml debian/tmp/opt/xbmc/share/xbmc/system
+	cp -Rav programs debian/tmp/opt/xbmc/share/xbmc/plugins/
 
 	dh_install -i --sourcedir=debian/tmp
 
